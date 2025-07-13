@@ -152,6 +152,17 @@
 .lots__card-list-item {
   position: relative;
   display: flex;
+  width: 334px;
+  height: 596px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+
+.card {
+  position: relative;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 334px;
@@ -160,8 +171,6 @@
   background-position: center;
   background-repeat: no-repeat;
   padding: 48px 40px;
-  box-sizing: border-box;
-  overflow: hidden;
   margin-bottom: 30px;
 }
 
@@ -189,12 +198,16 @@
   color: white;
   text-decoration: underline;
   margin: 0;
+  position: relative;
+  z-index: 2;
 }
 
 .card__text {
   font-size: 20px;
   color: white;
   margin: 0;
+  bottom: 10px;
+  position: relative;
   z-index: 2;
 }
 
