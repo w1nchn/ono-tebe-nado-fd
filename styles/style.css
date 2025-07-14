@@ -50,7 +50,7 @@
   flex-direction: column;
 }
 
-/* === COVER === */
+/* === COVER === 
 .cover {
   display: flex;
   position: relative;
@@ -123,7 +123,7 @@
   background: transparent;
   border: 1px solid white;
   margin-top: 256px;
-}
+} */
 
 /* === LOTS === */
 .lots {
