@@ -84,17 +84,22 @@
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 30px;
-  position: relative;
+  display: flex;
 }
 
 .aligned-text_center {
-  top: 135px;
-  left: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 20px;
+  
 }
 
 .aligned-text_right {
-  top: 154px;
-  left: 613px;
+  margin-top: 20px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-right: -30px;
 }
 
 .cover__description {
@@ -112,7 +117,7 @@
 .cover__description-text {
   word-spacing: 18.5px;
   white-space: nowrap;
-  margin-top: 270px;
+  margin-top: 115px;
 }
 
 .bet-button {
@@ -122,7 +127,7 @@
   color: white;
   background: transparent;
   border: 1px solid white;
-  margin-top: 256px;
+  margin-top: 100px;
 }
 
 /* === LOTS === */
@@ -159,16 +164,18 @@
   margin-bottom: 30px;
 }
 
-.overlay__lots {
-  inset: 0;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 1;
+.card {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 334px;
   height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 48px 40px;
+  margin-bottom: 30px;
 }
 
 .card-link {
@@ -197,6 +204,7 @@
   margin: 0;
   position: relative;
   z-index: 2;
+  text-decoration: none;
 }
 
 .card_type_film {
