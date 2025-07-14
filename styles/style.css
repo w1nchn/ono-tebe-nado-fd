@@ -107,12 +107,12 @@
   text-transform: uppercase;
   word-spacing: 18.5px;
   gap: 107px;
-  margin-top: 246px;
 }
 
 .cover__description-text {
   word-spacing: 18.5px;
   white-space: nowrap;
+  margin-top: 276px;
 }
 
 .bet-button {
