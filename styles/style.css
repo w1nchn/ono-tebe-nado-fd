@@ -50,7 +50,7 @@
   flex-direction: column;
 }
 
-/* === COVER === 
+/* === COVER === */
 .cover {
   display: flex;
   position: relative;
@@ -123,7 +123,7 @@
   background: transparent;
   border: 1px solid white;
   margin-top: 256px;
-} */
+}
 
 /* === LOTS === */
 .lots {
@@ -159,21 +159,18 @@
   margin-bottom: 30px;
 }
 
-.card {
+.overlay__lots {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   width: 334px;
   height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   padding: 48px 40px;
-  margin-bottom: 30px;
 }
-
-
 
 .card-link {
   display: flex;
