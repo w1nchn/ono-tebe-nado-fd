@@ -54,6 +54,7 @@
 .cover {
   display: flex;
   position: relative;
+  flex-direction: column;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   min-height: 757px;
@@ -87,31 +88,31 @@
 }
 
 .aligned-text_center {
-  top: 20px;
-  left: 330px;
+  top: 130px;
+  left: 10px;
 }
 
 .aligned-text_right {
-  top: 30px;
+  top: 150px;
   left: 613px;
 }
 
 .cover__description {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 50px 50px 50px;
+  z-index: 3;
   color: white;
   font-size: 22px;
   text-transform: uppercase;
-  z-index: 2;
   word-spacing: 18.5px;
-  position: relative;
-  top: 670px;
-  white-space: nowrap;
-  right: 465px;
   gap: 107px;
+  margin-top: 246px;
 }
 
 .cover__description-text {
   word-spacing: 18.5px;
-  margin-bottom: 50px;
+  white-space: nowrap;
 }
 
 .bet-button {
@@ -121,9 +122,6 @@
   color: white;
   background: transparent;
   border: 1px solid white;
-  position: relative;
-  left: 740px;
-  bottom: 90px;
 }
 
 /* === LOTS === */
@@ -153,7 +151,7 @@
   position: relative;
   display: flex;
   width: 334px;
-  height: 596px;
+  min-height: 596px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -166,7 +164,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 334px;
-  height: 596px;
+  height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -174,13 +172,7 @@
   margin-bottom: 30px;
 }
 
-.lots__card-list-item::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 1;
-}
+
 
 .card-link {
   display: flex;
@@ -206,7 +198,6 @@
   font-size: 20px;
   color: white;
   margin: 0;
-  bottom: 10px;
   position: relative;
   z-index: 2;
 }
