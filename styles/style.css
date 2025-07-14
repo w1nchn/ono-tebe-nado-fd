@@ -88,18 +88,18 @@
 }
 
 .aligned-text_center {
-  top: 130px;
+  top: 135px;
   left: 10px;
 }
 
 .aligned-text_right {
-  top: 150px;
+  top: 154px;
   left: 613px;
 }
 
 .cover__description {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   padding: 0 50px 50px 50px;
   z-index: 3;
   color: white;
@@ -112,7 +112,7 @@
 .cover__description-text {
   word-spacing: 18.5px;
   white-space: nowrap;
-  margin-top: 276px;
+  margin-top: 270px;
 }
 
 .bet-button {
@@ -122,6 +122,7 @@
   color: white;
   background: transparent;
   border: 1px solid white;
+  margin-top: 256px;
 }
 
 /* === LOTS === */
